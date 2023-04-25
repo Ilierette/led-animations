@@ -1,0 +1,3 @@
+Adafruit CircuitPython 8.0.5 on 2023-03-31; Adafruit QT Py M0 with samd21e18
+Board ID:qtpy_m0
+UID:7A2DDB575346545120202036251215FF
