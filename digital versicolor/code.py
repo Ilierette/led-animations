@@ -50,19 +50,10 @@ def rainbow(repeat, speed): #0.6
         color_chase(BLUE, speed, speed)
         color_chase(PURPLE, speed, speed)
 
-def rainbow_slow(repeat, speed): #0.6
-    for i in range(repeat):
-        color_chase(RED, speed, speed) 
-        color_chase(ORANGE, speed, speed) 
-        color_chase(YELLOW, speed, speed)  
-        color_chase(GREEN, speed, speed)
-        color_chase(BLUE, speed, speed)
-        color_chase(PURPLE, speed, speed)
-
 
 while True:
     if(once_run):
-        rainbow_slow(6, 0.08)
+        rainbow(6, 0.08)
         color_chase(OFF, 0.1, 6)
 
         # verse 1
@@ -77,6 +68,6 @@ while True:
         rainbow(18, 0.02)
         color_chase(OFF, 0.1, 0.5)
 
-        color_chase(WHITE, 0.1, 193)
+        color_chase(WHITE, 0.1, 161)
         once_run = False
     strobo(WHITE,0.15)
